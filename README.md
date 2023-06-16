@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/jbywe2mj91cmkyn5?svg=true)](https://ci.appveyor.com/project/sema301183/patterns1)
+[![Build status](https://ci.appveyor.com/api/projects/status/syqoub2d1l7y5u6y?svg=true)](https://ci.appveyor.com/project/sema301183/patterns1-vplgr)
