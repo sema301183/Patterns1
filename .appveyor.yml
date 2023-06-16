@@ -3,7 +3,7 @@ stack: jdk 11  # версия JDK
 
 branches:
   only:
-  - main  # ветка git
+    - main  # ветка git
 
 build: off  # будем использовать свой скрипт сборки
 
@@ -13,6 +13,6 @@ install:
 
 build_script:
   - chmod +x gradlew
-# запускаем тест, флаг --info позволяет выводить больше информации
-# это для запуска Selenide в скрытом режиме
+  # запускаем тест, флаг --info позволяет выводить больше информации
+  # это для запуска Selenide в скрытом режиме
   - ./gradlew test -Dselenide.headless=true --info
